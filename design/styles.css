@@ -1,0 +1,92 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #efeff1;
+  text-align: center;
+}
+
+.title {
+  font-size: 25px;
+  margin-top: 50px;
+  line-height: 0.7;
+  display: block;
+}
+
+.subtitle {
+  font-size: 15px;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px 30px;
+}
+
+p {
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.sub-flex-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+
+.module {
+  width: 330px;
+  height: 250px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  border-top-style: solid;
+  border-width: thick;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11),
+              0 2px 2px rgba(0,0,0,0.11),
+              0 4px 4px rgba(0,0,0,0.11),
+              0 8px 8px rgba(0,0,0,0.11),
+              0 16px 16px rgba(0,0,0,0.11),
+              0 32px 32px rgba(0,0,0,0.11);
+}
+
+#moduleSupervisor {
+    border-top-color: #45d3d3;
+}
+
+#moduleBuilder {
+  border-top-color: #ea5353;
+}
+
+#moduleCalculator {
+  border-top-color: #549ef2;
+}
+
+#moduleKarma {
+  border-top-color: #fcaf4a;
+}
+
+.moduleText {
+  padding: 30px;
+  text-align: left;
+}
+
+.moduleTitle {
+  font-size: 20px;
+}
+
+.moduleParagraph {
+  font-size: 14px;
+  line-height: 1.8em;
+  padding-top: 10px;
+}
+
+.moduleIcon {
+  text-align: right;
+  position: relative;
+  float: right;
+  padding-right: 30px;
+}
