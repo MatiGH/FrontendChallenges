@@ -4,22 +4,39 @@ body {
   text-align: center;
 }
 
-.title {
+h1 {
   font-size: 25px;
-  margin-top: 50px;
-  line-height: 0.7;
+  margin-top: 50px ;
+  line-height: 1.5;
+  font-weight: 600;
   display: block;
 }
 
-.subtitle {
+h1::first-line {
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px 30px 10px 30px;
+  text-align: left;
+}
+
+h3 {
   font-size: 15px;
+  font-weight: 200;
   max-width: 500px;
   margin: auto;
-  padding: 30px 30px;
+  padding-bottom: 30px;
 }
 
 p {
-  margin: auto;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.8em;
+  margin: 0 30px;
+  text-align: left;
 }
 
 .flex-container {
@@ -33,6 +50,7 @@ p {
 .sub-flex-container {
   display: flex;
   flex-direction: column;
+  order: 0;
   text-align: center;
   height: 100%;
 }
@@ -42,6 +60,7 @@ p {
   height: 250px;
   background-color: white;
   margin: 20px;
+  position: relative;
   border-radius: 10px;
   border-top-style: solid;
   border-width: thick;
@@ -69,24 +88,8 @@ p {
   border-top-color: #fcaf4a;
 }
 
-.moduleText {
-  padding: 30px;
-  text-align: left;
-}
-
-.moduleTitle {
-  font-size: 20px;
-}
-
-.moduleParagraph {
-  font-size: 14px;
-  line-height: 1.8em;
-  padding-top: 10px;
-}
-
 .moduleIcon {
-  text-align: right;
-  position: relative;
-  float: right;
-  padding-right: 30px;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
 }
